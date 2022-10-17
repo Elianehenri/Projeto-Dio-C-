@@ -8,14 +8,6 @@ namespace DesafioFundamentos.Models
 {
     public class ValidarPlaca
     {
-        /* public static bool ValidarPlaca(string placa){
-        
-        if (string.IsNullOrWhiteSpace(placa) && (placa.Length > 8))
-        {
-            return false;
-        }
-         
-    }*/
         public static bool ValidaPlaca(string placa)
         {
             if (string.IsNullOrWhiteSpace(placa))
