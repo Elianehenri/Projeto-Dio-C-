@@ -41,11 +41,11 @@ namespace ExemploExplorando.Models
             {
                 
             }
-               public Pessoa(string nome, string sobrenome, int idade )
+               public Pessoa(string nome, string sobrenome)
             {
                 Nome = nome;
                 Sobrenome = sobrenome;
-                Idade = idade;
+                
             }
         //metodo
         public void Apresentar(){

@@ -27,11 +27,17 @@ namespace ExemploExplorando.Models
             Alunos.Remove (aluno);
         }
         public void ListarAlunos(){
+           
             Console.WriteLine($"Alunos do curso de: {Nome}");
-            foreach(Pessoa aluno in Alunos)
-            {
-                Console.WriteLine(aluno.NomeCompleto);
-                //Console.WriteLine(aluno.Idade);
+            for (int count = 0; count < Alunos.Count; count++){
+
+                 //contatenando strings
+                //string texto = "Nº " + count + " - " + Alunos[count].NomeCompleto; 
+
+                //interpolaçao
+                string texto = $"Nº {count + 1} - {Alunos[count].NomeCompleto}";
+                Console.WriteLine(texto);
+
             }
         }
     }

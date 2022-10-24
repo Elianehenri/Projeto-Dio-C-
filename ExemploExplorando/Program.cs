@@ -2,10 +2,17 @@
 using ExemploExplorando.Models;
 
 
+//decimal valorMonetario = 82.40M;
+//Console.WriteLine($"{valorMonetario:C}");//c: coloca R$
 
-Pessoa p1 = new Pessoa(nome:"eliane","Henriqueta",idade: 45);
-Pessoa p2= new Pessoa(nome:"agilson","Henriqueta",idade:60);
-Pessoa p3= new Pessoa(nome:"julia","Henriqueta",idade:10);
+
+
+
+
+//interpoçao
+Pessoa p1 = new Pessoa(nome:"eliane","Henriqueta");
+Pessoa p2= new Pessoa(nome:"agilson","Henriqueta");
+Pessoa p3= new Pessoa(nome:"julia","Henriqueta");
 
 
 Curso cursoDeIngles = new Curso();
