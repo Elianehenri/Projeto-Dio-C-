@@ -8,6 +8,14 @@ namespace AbstracaoEncapsulamento.Moldes
 {
     public class Aluno : Pessoa
     {
+        public Aluno(string nome) : base(nome)
+        {
+
+        }
+        public Aluno( )
+        {
+            
+        }
         public double Nota { get; set; }
 
         public override void Apresentar()

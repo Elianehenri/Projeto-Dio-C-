@@ -1,8 +1,26 @@
 ﻿
 using System.Security.Cryptography;
+using AbstracaoEncapsulamento.interfaces;
 using AbstracaoEncapsulamento.Moldes;
 
-//herança
+//interfaces
+ICalculadora calc = new Calculadora();
+Console.WriteLine(calc.Multiplicar(3,9));
+Console.WriteLine(calc.Dividir(27,9));
+Console.WriteLine(calc.Somar(3,9));
+Console.WriteLine(calc.Subtrair(13,9));
+//class object
+Computador  pc =new Computador();
+Console.WriteLine(pc.ToString());
+
+
+//classes abstratas e interfaces
+Corrente c = new Corrente();
+c.Creditar(15000);
+c.ExibirSaldo();
+
+
+//herança e polimorfismo
 Aluno a1 = new Aluno();
 a1.Nome = "Eliane Lima";
 a1.Idade = 45;
@@ -18,15 +36,6 @@ p.Salario = 5000M;
 p.Apresentar();
 
  
-
-
-
-
-
-
-
-
-
 
 //abstraçao
 //objeto tipo pessoa
