@@ -1,21 +1,21 @@
 # DIO - Trilha .NET - Nuvem com Microsoft Azure
 www.dio.me
 
-## Realizei o desafio soment no meu banco de dados da minha maquina.
+### Realizei o desafio somente no meu banco de dados da minha maquina.
 Para saber o que fiz até agora:
 
 Abra um terminal onde deseja criar a pasta
 # Clone este repositório
-$ 
+$ git@github.com:Elianehenri/Projeto-Dio-C-.git
 
 Vá para o arquivo appsettings.json dentro do BackEnd e adicione a ConnectionString, 
-seguindo o modelo abaixo .
+seguindo o modelo abaixo 👇.
 "ConnectionStrings": {
     "CONEXAO_BANCO": "Server=localhost\\SQLEXPRESS;Database=Funcionarios;Trusted_Connection=True;"
 
   }
 
- Conecte a sua máquina com um SQL Server local e atualize-o rodando no diretório do projeto o comando 
+ Conecte a sua máquina com um SQL Server local e atualize-o rodando no diretório do projeto o comando 👇
  dotnet ef database update
 
 ## Desafio de projeto
